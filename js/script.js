@@ -23,7 +23,7 @@ function scrollToSection(id) {
 window.scrollToSection = scrollToSection;
 
 // WhatsApp opener – ganti nomor dengan nomor kamu
-const WA_PHONE = "6281234567890";
+const WA_PHONE = "628979489086";
 
 function openWhatsApp() {
   const text = "Halo Kentang Kita, saya mau pesan Kentang Crispy dong";
@@ -99,3 +99,4 @@ faqItems.forEach((item) => {
 scrollTopBtn.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
+
