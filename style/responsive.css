@@ -1,0 +1,77 @@
+/* RESPONSIVE DESIGN */
+@media (max-width: 992px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-top: 120px;
+  }
+  .hero p.subtitle {
+    margin: 0 auto 32px;
+  }
+  .badges {
+    justify-content: center;
+  }
+  .hero-cta {
+    justify-content: center;
+  }
+  .hero-visual {
+    grid-row: 1;
+  }
+  .testi-container {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .bento-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-menu,
+  .btn-wa-nav {
+    display: none;
+  }
+  .mobile-toggle {
+    display: block;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .order-cta {
+    padding: 40px 24px;
+    margin: 0 16px 60px;
+  }
+  .btn-big-wa,
+  .btn-gofood {
+    width: 100%;
+    justify-content: center;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Mobile Menu Active State */
+  .nav-menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    background: var(--bg-surface);
+    padding: 24px;
+    box-shadow: var(--shadow-md);
+    border-bottom: 1px solid var(--border-color);
+  }
+  .nav-menu.active .btn-wa-nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 16px;
+  }
+}
